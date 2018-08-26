@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "304223894828",
+    "firebase_url": "https://hausa-plant.firebaseio.com",
+    "project_id": "hausa-plant",
+    "storage_bucket": "hausa-plant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304223894828:android:8daa1a7458596c12",
+        "android_client_info": {
+          "package_name": "com.app.hausaplant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304223894828-rpmv4lqh5j5uvtot9as7n1hpj8jirljo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.hausaplant",
+            "certificate_hash": "fbdfa585b5527a6a1a2480f4af0cadd1f1190185"
+          }
+        },
+        {
+          "client_id": "304223894828-0u2elvhomso9n27488maia9kiv7jqf41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7RBF3VROUZreG82UCV61lYskzelOHaxw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304223894828-0u2elvhomso9n27488maia9kiv7jqf41.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
