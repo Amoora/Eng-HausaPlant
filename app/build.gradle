@@ -27,7 +27,8 @@ dependencies {
 
     implementation 'com.android.support:recyclerview-v7:27.1.1'
     implementation 'com.android.support:cardview-v7:27.1.1'
-
+    implementation 'com.vorlonsoft:androidrate:1.0.8'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
 
     implementation 'com.google.firebase:firebase-core:16.0.1'
     implementation 'com.firebaseui:firebase-ui-database:3.3.1'

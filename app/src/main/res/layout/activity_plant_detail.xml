@@ -7,20 +7,94 @@
     tools:context=".PlantDetail"
     android:orientation="vertical">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#1B5E20 ">
+
+        <TextView
+            android:id="@+id/txtNameDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/domine"
+            android:text="Name"
+            android:textAlignment="viewStart"
+            android:layout_marginTop="5dp"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <ImageButton
+            android:id="@+id/star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@android:drawable/btn_star"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="5dp"/>
+    </RelativeLayout>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/txtNameDetails"
-        android:text="Name"/>
-    <TextView
+        android:layout_marginTop="15dp"
+        android:text="Translations"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/txtLocalDetails"
-        android:text="Local"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtSciDetails"
-        android:text="Scientific"/>
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="Hausa:"
+            android:textColor="@color/colorPrimary"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtLocalDetails"
+            android:paddingLeft="80dp"
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:text="Local"/>
+
+    </RelativeLayout>
+
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="5dp"
+       android:layout_marginLeft="10dp">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="15sp"
+           android:textStyle="bold"
+           android:textColor="@color/colorPrimary"
+           android:text="Sci-Name:"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingLeft="80dp"
+           android:id="@+id/txtSciDetails"
+           android:textSize="15sp"
+           android:textStyle="italic"
+           android:text="Scientific"/>
+   </RelativeLayout>
+
+
+</LinearLayout>
+
 
 </LinearLayout>
